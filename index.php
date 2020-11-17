@@ -5,8 +5,8 @@ session_start();
 
 if(isset($_POST['mobile']) && isset($_POST['msg'])){
 	//twilio
-	$sid = 'AC4db1d279c3d1da7c2ef6c3c44f0c09e4';
-	$token = '82f630791f4f45b0b1ced03a26200ca0';
+	$sid = '';
+	$token = '';
 
 	$client = new Client($sid, $token);
 	$message = $client->messages->create(
