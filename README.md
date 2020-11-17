@@ -13,6 +13,6 @@ An API that uses the Twilio messaging option to send an SMS to the provided numb
 2. Open the ``Git Bash terminal`` within the folder.
 3. Clone this repository using the command ``git clone https://github.com/CyprianKyalo/TwilioSMS.git``
 4. Once cloning is done, open the ***Xampp*** application and make sure it's up and running.
-5. Open the ``TwilioSMS/index.php`` then update the `$sid` and `$token` with respect to your Twilio Account SID and Auth Token.
-5. Go to your web browser and paste in the following command: ``localhost/TwilioSMS/index.php``
-6. Type in the mobile number you want to send the message to and the message, then click send.
+5. Open the ``TwilioSMS/index.php`` then update the `$sid`, `$token` and `from` with your Twilio Account SID, Auth Token and trial number respectively.
+6. Go to your web browser and paste in the following command: ``localhost/TwilioSMS/index.php``
+7. Type in the mobile number you want to send the message to and the message, then click send.
